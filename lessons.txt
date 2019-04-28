@@ -30,6 +30,11 @@ git push origin --tags
 
 2.0 - Basic routing e.g web.php
 
+3.0 - Authentication
+    Command line interface using `php artisan list`
+    php artisan make:auth
+    php artisan make:migrate
+
 04 - Authentication (illustrate Whoops by making an error)
     php artisan make -h
     php artisan make:auth
