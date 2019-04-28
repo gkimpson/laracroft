@@ -62,6 +62,9 @@ git push origin --tags
 
     php artisan make:controller Project
 
+8.0 - Eloquent
+    php artisan help make:model Task -m -f (model & factory)
+
 
 
 
