@@ -40,7 +40,7 @@ git push origin --tags
     $arr = 'gavin';
     $arr - 10;
 
-4.0 - Controllers
+4.0 - Controllers (& passing data to views)
     php artisan make:controller PagesController -h
 
 
