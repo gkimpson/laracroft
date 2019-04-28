@@ -53,6 +53,25 @@ git push origin --tags
     php artisan make:migration create_projects_table
     https://laravel.com/docs/5.8/migrations
 
+7.0 - Models (& collections)
+    php artisan make:model Project
+    php artisan tinker (playground for your app)
+    php $project = new App\Project;
+    App\Project::all();
+    App\Project::first();
+
+    php artisan make:controller Project
+
+
+
+
+
+
+
+
+
+
+
 04 - Authentication (illustrate Whoops by making an error)
     php artisan make -h
     php artisan make:auth

@@ -11,6 +11,7 @@
 |
 */
 Route::get('/', 'PagesController@index');
+Route::get('/projects', 'ProjectsController@index');
 
 // Route::get('/', function () {
 //     return view('welcome');
