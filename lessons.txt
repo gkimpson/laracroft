@@ -41,6 +41,7 @@ git push origin --tags
     $arr - 10;
 
 4.0 - Controllers
+    php artisan make:controller PagesController
 
 
 
