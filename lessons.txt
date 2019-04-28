@@ -40,10 +40,18 @@ git push origin --tags
     $arr = 'gavin';
     $arr - 10;
 
-4.0 - Controllers (& passing data to views)
+4.0 - Controllers
     php artisan make:controller PagesController -h
 
+5.0 - Controller -> pass data to views
+    e.g
+        return view('pages.index', [
+            'names' => $names
+        ]);
 
+6.0 - Migrations
+    php artisan make:migration create_projects_table
+    https://laravel.com/docs/5.8/migrations
 
 04 - Authentication (illustrate Whoops by making an error)
     php artisan make -h
