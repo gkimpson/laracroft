@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// example.com/contact
+Route::get('/contact', function () {
+    return view('contact');
+});

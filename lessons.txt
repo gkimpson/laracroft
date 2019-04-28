@@ -1,0 +1,53 @@
+use tags
+git tag -d 'tagname' [TAG DELETE]
+git tag -l [LIST ALL TAGS]
+git tag 'tagname' [CREATE NEW TAG]
+git checkout tags/v1.0 [tag name checkout]
+git push origin --tags
+
+01  -'start' - initial 'clean' Laravel 5.8.x installation (FRESH)
+    Laravel Sell...
+
+    Recent trends - Laravel is most popular PHP framework
+    Massive community - one of the most popular repo's on Github
+    First party tools/packages like Nova, Dusk, Spark, Forge
+    Regularly updated with clean concise documentation
+    Simply.. it is awesome
+
+02  - Structure
+    app/Http/Controllers
+    config/
+    database (migrations, fixtures etc..)
+    public (js/css etc)
+    resources (views etc)
+    test (unit tests)
+    .env (environment files)
+
+03 - Artisan (OPEN FROM LARAGON TERMINAL!)
+    php artisan -h
+    php artisan -list
+    php artisan serve
+    Basic routing e.g web.php
+
+04 - Authentication (illustrate Whoops by making an error)
+    php artisan make -h
+    php artisan make:auth
+    php artisan migrate
+
+05 - Blade/Controllers/Models
+
+
+05 - Migrations/Tinker/Models/Collections
+    php artisan make:migration create_teachers_table
+    php artisan make:model Student
+    within php artisan tinker
+
+    $student = new App\Student;
+    $student->firstname = 'Bob';
+    $student->surname = 'Geldoff';
+    $student->gender = 'male';
+    $student->age = 60;
+    $student->save();
+
+    App\Student::all();
+    App\Student::find(1);
