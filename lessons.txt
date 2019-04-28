@@ -5,7 +5,7 @@ git tag 'tagname' [CREATE NEW TAG]
 git checkout tags/v1.0 [tag name checkout]
 git push origin --tags
 
-01  -'start' - initial 'clean' Laravel 5.8.x installation (FRESH)
+1.0  -'start' - initial 'clean' Laravel 5.8.x installation (FRESH)
     Laravel Sell...
 
     Recent trends - Laravel is most popular PHP framework
@@ -14,7 +14,7 @@ git push origin --tags
     Regularly updated with clean concise documentation
     Simply.. it is awesome
 
-02  - Structure
+1.1  - Structure
     app/Http/Controllers
     config/
     database (migrations, fixtures etc..)
@@ -23,11 +23,12 @@ git push origin --tags
     test (unit tests)
     .env (environment files)
 
-03 - Artisan (OPEN FROM LARAGON TERMINAL!)
+1.2 - Artisan (OPEN FROM LARAGON TERMINAL!)
     php artisan -h
     php artisan -list
     php artisan serve
-    Basic routing e.g web.php
+
+2.0 - Basic routing e.g web.php
 
 04 - Authentication (illustrate Whoops by making an error)
     php artisan make -h
