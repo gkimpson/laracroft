@@ -35,6 +35,10 @@ git push origin --tags
     php artisan make:auth
     php artisan make:migrate
 
+
+
+
+
 04 - Authentication (illustrate Whoops by making an error)
     php artisan make -h
     php artisan make:auth
