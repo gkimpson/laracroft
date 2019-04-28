@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $arr = 'gavin';
+        $arr - 10;
         return view('home');
     }
 }
