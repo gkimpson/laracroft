@@ -1,4 +1,4 @@
-use tags
+1use tags
 git tag -d 'tagname' [TAG DELETE]
 git tag -l [LIST ALL TAGS]
 git tag 'tagname' [CREATE NEW TAG]
@@ -34,6 +34,7 @@ git push origin --tags
     Command line interface using `php artisan list`
     php artisan make:auth
     php artisan make:migrate
+    php artisan migrate
 
 3.1 - Whoops
     login and make an error in the home index controller
@@ -57,6 +58,9 @@ git push origin --tags
     php artisan make:model Project
     php artisan tinker (playground for your app)
     php $project = new App\Project;
+    $project->field = 'xyz';
+    $project->save();
+
     App\Project::all();
     App\Project::first();
 
@@ -64,36 +68,3 @@ git push origin --tags
 
 8.0 - Eloquent
     php artisan help make:model Task -m -f (model & factory)
-
-
-
-
-
-
-
-
-
-
-
-04 - Authentication (illustrate Whoops by making an error)
-    php artisan make -h
-    php artisan make:auth
-    php artisan migrate
-
-05 - Blade/Controllers/Models
-
-
-05 - Migrations/Tinker/Models/Collections
-    php artisan make:migration create_teachers_table
-    php artisan make:model Student
-    within php artisan tinker
-
-    $student = new App\Student;
-    $student->firstname = 'Bob';
-    $student->surname = 'Geldoff';
-    $student->gender = 'male';
-    $student->age = 60;
-    $student->save();
-
-    App\Student::all();
-    App\Student::find(1);
